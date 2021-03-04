@@ -14,7 +14,7 @@ declare global {
   }
 }
 
-export default function (req: Request, res: Response, next: NextFunction) {
+export default function CurrentUser(req: Request, res: Response, next: NextFunction) {
   if (!req.session?.jwt) {
     return next();
   }
