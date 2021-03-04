@@ -10,3 +10,15 @@ import NotAuthorizeError from './errors/not-authorize-error'
 import NotFoundError from './errors/not-found-error'
 import RequestValidationError from './errors/request-validation-error'
 
+export {
+  ErrorHandler,
+  CustomError,
+  CurrentUser,
+  RequireAuth,
+  DatabaseConnectionError,
+  ValidateRequest,
+  BadRequestError,
+  NotAuthorizeError,
+  NotFoundError,
+  RequestValidationError
+}
